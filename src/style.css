@@ -1,0 +1,21 @@
+/* Import Tailwind's base reset, component classes, and utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling across the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Thin, subtle scrollbar for the milestone list area */
+.milestone-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.milestone-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.milestone-scroll::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 2px;
+}
